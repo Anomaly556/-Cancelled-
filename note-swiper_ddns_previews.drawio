@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2024-01-12T09:40:29.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WcW5fVJJteD5Z4uuW1dn" version="22.1.18" type="github">
+  <diagram name="ページ1" id="VKEx5wPfoCIlXwyyUOif">
+    <mxGraphModel dx="1333" dy="395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SFTUNIulg9EOT5Cv6ppx-1" value="Computer (Website Hosting)&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-394" y="3" width="961" height="661" as="geometry" />
+        </mxCell>
+        <mxCell id="SFTUNIulg9EOT5Cv6ppx-2" value="XAMPP (Develop Software)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="SFTUNIulg9EOT5Cv6ppx-1">
+          <mxGeometry x="381" y="40" width="562" height="414" as="geometry" />
+        </mxCell>
+        <mxCell id="SFTUNIulg9EOT5Cv6ppx-4" value="Apache HTTP Server (httpd)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="SFTUNIulg9EOT5Cv6ppx-2">
+          <mxGeometry x="8" y="30" width="368" height="95" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
