@@ -1,17 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T09:40:29.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WcW5fVJJteD5Z4uuW1dn" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T09:46:30.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KoIoHs1fskQ8CFPK5I83" version="22.1.18" type="github">
   <diagram name="ページ1" id="VKEx5wPfoCIlXwyyUOif">
-    <mxGraphModel dx="1333" dy="395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1726" dy="899" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SFTUNIulg9EOT5Cv6ppx-1" value="Computer (Website Hosting)&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-394" y="3" width="961" height="661" as="geometry" />
+        <mxCell id="SFTUNIulg9EOT5Cv6ppx-1" value="Computer (Website Hosting)&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-516" y="-9" width="961" height="661" as="geometry" />
         </mxCell>
-        <mxCell id="SFTUNIulg9EOT5Cv6ppx-2" value="XAMPP (Develop Software)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="SFTUNIulg9EOT5Cv6ppx-1">
-          <mxGeometry x="381" y="40" width="562" height="414" as="geometry" />
+        <mxCell id="SFTUNIulg9EOT5Cv6ppx-2" value="XAMPP (Develop Software)" style="swimlane;whiteSpace=wrap;html=1;" parent="SFTUNIulg9EOT5Cv6ppx-1" vertex="1">
+          <mxGeometry x="143" y="55" width="779" height="414" as="geometry" />
         </mxCell>
-        <mxCell id="SFTUNIulg9EOT5Cv6ppx-4" value="Apache HTTP Server (httpd)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="SFTUNIulg9EOT5Cv6ppx-2">
-          <mxGeometry x="8" y="30" width="368" height="95" as="geometry" />
+        <mxCell id="SFTUNIulg9EOT5Cv6ppx-4" value="Apache HTTP Server (httpd)" style="swimlane;whiteSpace=wrap;html=1;" parent="SFTUNIulg9EOT5Cv6ppx-2" vertex="1">
+          <mxGeometry x="390" y="23" width="368" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="yuG8LyLM1hRnAY38nB1l-1" value="MySQL" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="SFTUNIulg9EOT5Cv6ppx-2">
+          <mxGeometry x="390" y="118" width="368" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="yuG8LyLM1hRnAY38nB1l-2" value="PHP (Server-side)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="SFTUNIulg9EOT5Cv6ppx-2">
+          <mxGeometry x="8" y="38" width="165" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="yuG8LyLM1hRnAY38nB1l-3" value="PHPMyAdmin (MySQL Managing)" style="swimlane;whiteSpace=wrap;html=1;startSize=34;" vertex="1" parent="SFTUNIulg9EOT5Cv6ppx-2">
+          <mxGeometry x="24" y="261" width="164" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="yuG8LyLM1hRnAY38nB1l-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="SFTUNIulg9EOT5Cv6ppx-2" source="yuG8LyLM1hRnAY38nB1l-3" target="yuG8LyLM1hRnAY38nB1l-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109" y="198" as="sourcePoint" />
+            <mxPoint x="209" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuG8LyLM1hRnAY38nB1l-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SFTUNIulg9EOT5Cv6ppx-2" source="yuG8LyLM1hRnAY38nB1l-2" target="yuG8LyLM1hRnAY38nB1l-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="181" y="122" as="sourcePoint" />
+            <mxPoint x="351" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuG8LyLM1hRnAY38nB1l-9" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="yuG8LyLM1hRnAY38nB1l-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yuG8LyLM1hRnAY38nB1l-10" value="Process MySQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yuG8LyLM1hRnAY38nB1l-8">
+          <mxGeometry x="0.0104" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuG8LyLM1hRnAY38nB1l-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="SFTUNIulg9EOT5Cv6ppx-2" source="yuG8LyLM1hRnAY38nB1l-2" target="SFTUNIulg9EOT5Cv6ppx-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="171" y="107" as="sourcePoint" />
+            <mxPoint x="265" y="111" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuG8LyLM1hRnAY38nB1l-7" value="Post-processed HTML Document" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="yuG8LyLM1hRnAY38nB1l-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
